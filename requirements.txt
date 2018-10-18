@@ -1,0 +1,5 @@
+flask==1.0.2
+flask-httpauth==3.2.4
+flask-restful==0.3.6
+flask-sqlalchemy==2.3.2
+python-dotenv==0.9.1
