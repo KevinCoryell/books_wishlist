@@ -13,12 +13,12 @@ Books Wishlist API Endpoint Documentation
   `GET`  
   **Code:** 200  
   **Content:**
-  `{"users": [ {"user_id": 1, "first_name": "first name", "last_name": "last name", "email": "email_address@host", "password": "password"}, .... ] }`  
+  `{"users": [ {"user_id": 1, "first_name": "first name", "last_name": "last name", "email": "email_address@host"}, .... ] }`  
   
   `POST`  
   **Code:** 201  
   **Content:**
-  `{"user": {"user_id": 1, first_name": "first name", "last_name": "last name", "email": "email_address@host", "password": "password"} }`
+  `{"user": {"user_id": 1, first_name": "first name", "last_name": "last name", "email": "email_address@host"} }`
  
 * **Error Response:**  
   `POST`  
@@ -179,7 +179,7 @@ Books Wishlist API Endpoint Documentation
   `GET`  
   **Code:** 200  
   **Content:**
-  `{"user": {"user_id": 1, "first_name": "first name", "last_name": "last name", "email": "email_address@host", "password": "password"} }`  
+  `{"user": {"user_id": 1, "first_name": "first name", "last_name": "last name", "email": "email_address@host"} }`  
 * **Sample Call:**  
   `GET`: `curl /api/users/1` 
 
@@ -212,7 +212,6 @@ Books Wishlist API Endpoint Documentation
   GET  
   **Code:** 200  
   **Content:**
-  `{"users": [ {"user_id": 1, "first_name": "first name", "last_name": "last name", "email": "email_address@host", "password": "password"}, .... ] }`  
+  `{"users": [ {"user_id": 1, "first_name": "first name", "last_name": "last name", "email": "email_address@host"}, .... ] }`  
 * **Sample Call:**  
   `GET`: `curl /api/books/9789655171990/users` 
-
